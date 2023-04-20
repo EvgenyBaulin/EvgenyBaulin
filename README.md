@@ -1,8 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 
-<div id="header" align="center">
-    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100" alt=""/>
-</div>
+### Social media and views:
 
 <div id="socials" align="center">
     <a href="https://t.me/tarakan_tuc">
@@ -13,14 +11,7 @@
         <img src="https://img.shields.io/badge/LinkedIn-blue?logo=LinkedIn&logoColor=white"
              alt="LinkedIn"/>
     </a>
-</div>
-
-<div id="views" align="center">
-    <img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt=""/>
-</div>
-
-<div align="center">
-    <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300" alt=""/>
+<img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt=""/>
 </div>
 
 ---

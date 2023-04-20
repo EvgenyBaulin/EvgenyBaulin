@@ -65,10 +65,8 @@ me: [![Telegram Badge](https://img.shields.io/badge/Telegram-black?logo=Telegram
 <div>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark"
        width="100%" alt=""/>&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EvgenyBaulin&theme=dark"
-       width="39.248%" alt="" align="left"/>&nbsp;
   <img src="https://github-readme-streak-stats.herokuapp.com?user=EvgenyBaulin&theme=dark&background=000000)](https://git.io/streak-stats"
-       width="58.548%" alt="" align="right"/>&nbsp;
+       width="100%" alt=""/>&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/README.md?username=EvgenyBaulin&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats"
        width="100%" alt=""/>&nbsp;
 </div>

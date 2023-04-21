@@ -51,12 +51,6 @@ me: [![Telegram Badge](https://img.shields.io/badge/Telegram-black?logo=Telegram
        width="40"/>&nbsp;
   <img alt="Git" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
        title="Git" width="40"/>&nbsp;
-  <img alt="GitHub" height="40"
-       src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="GitHub"
-       width="40">
-  <img alt="GitLab" height="40"
-       src="https://github.com/devicons/devicon/blob/master/icons/github/gitlab-original-wordmark.svg" title="GitLab"
-       width="40">
 </div>
 
 ---

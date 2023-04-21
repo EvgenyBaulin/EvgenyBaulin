@@ -22,15 +22,11 @@
 
 ### About Me:
 
-- :telescope: I work as a backend programmer and contribute to backend to create websites, Telegram bots and local
-projects
-
-- :seedling: Exploring Technical Content Writing.
-
-- :zap: In my free time I play sports or hang out with friends
-
-- :mailbox: How to reach
-me: [![Telegram Badge](https://img.shields.io/badge/Telegram-black?logo=Telegram&logoColor=white)](https://t.me/tarakan_tuc)
+I'm a student at the Higher School of Economics and have been programming for over a year. I have experience in Python,
+C++, HTML5, CSS5, and Git, and enjoy working with others to develop solutions. My passion for programming fuels my
+curiosity to learn and explore new technologies. I'm always eager to take on new challenges and expand my skill set.
+With my knowledge and experience, I'm excited to contribute to the GitHub community and collaborate with fellow
+developers.
 
 ---
 

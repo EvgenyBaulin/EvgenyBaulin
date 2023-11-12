@@ -7,12 +7,10 @@
     <img src="https://img.shields.io/badge/Telegram-black?logo=Telegram&logoColor=white"
          alt="Telegam"/>
   </a>
+
   <a href="https://www.linkedin.com/in/evgeny-baulin-31b42926b/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=LinkedIn&logoColor=white"
          alt="LinkedIn"/>
-  </a>
-  <a href="https://leetcode.com/EvgenyBaulin/">
-    <img src="https://img.shields.io/badge/LeetCode-black?logo=leetcode" alt="LeetCode">
   </a>
 
   <img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt=""/>
@@ -47,6 +45,7 @@ developers.
        width="40"/>&nbsp;
   <img alt="Git" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
        title="Git" width="40"/>&nbsp;
+  <img alt="Go" height="40" src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg" title="Git" width="40">
 </div>
 
 ---

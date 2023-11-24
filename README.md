@@ -22,9 +22,10 @@
 
 ### About Me:
 
-I'm a student at the Higher School of Economics and have been programming for over a year. I have experience in Python,
-C++, HTML5, CSS5, and Git, and enjoy working with others to develop solutions. My passion for programming fuels my
-curiosity to learn and explore new technologies. I'm always eager to take on new challenges and expand my skill set.
+I am a student at the Higher School of Economics and have been programming for over 3 years. I have experience in
+Python, C++, HTML5, CSS5, Go, and Git, and enjoy working with others to develop solutions. My passion for programming
+fuels my curiosity to learn and explore new technologies. I'm always eager to take on new challenges and expand my skill
+set.
 
 ---
 

@@ -52,7 +52,7 @@ set.
 
 ---
 
-### :fire: My Stats :
+### My Stats:
 
 <div>
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark"

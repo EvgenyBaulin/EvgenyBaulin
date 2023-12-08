@@ -28,27 +28,16 @@ set.
 
 ---
 
-### :hammer_and_wrench: Languages and Tools :
+### Languages and Tools :
 
 <div>
-    <img alt="Python" height="40"
-         src="icons/Python.svg" title="Python"
-         width="40"/>&nbsp;
-    <img alt="Cpp" height="40"
-         src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="Cpp"
-         width="40"/>&nbsp;
-    <img alt="HTML" height="40"
-         src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" title="HTML"
-         width="40"/>&nbsp;
-    <img alt="CSS" height="40"
-         src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" title="CSS"
-         width="40"/>&nbsp;
-    <img alt="Git" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
-         title="Git" width="40"/>&nbsp;
-    <img alt="Go" height="40" src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg" title="Git"
-         width="40">
-    <img alt="Django REST" height="40" src="icons/DRF.svg" title="Django REST"
-         width="40">
+    <img alt="Python" height="40" src="icons/Python.svg" title="Python"  width="40"/>&nbsp;
+    <img alt="Cpp" height="40" src="icons/Cpp.svg" title="Cpp" width="40"/>&nbsp;
+    <img alt="HTML" height="40" src="icons/HTML_5.svg" title="HTML" width="40"/>&nbsp;
+    <img alt="CSS" height="40" src="icons/CSS_3.svg" title="CSS" width="40"/>&nbsp;
+    <img alt="Git" height="40" src="icons/Git.svg" title="Git" width="40"/>&nbsp;
+    <img alt="Go" height="40" src="icons/Go.svg" title="Git" width="40">
+    <img alt="Django REST" height="40" src="icons/DRF.svg" title="Django REST" width="40">
 </div>
 
 ---

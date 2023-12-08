@@ -1,0 +1,131 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1702001472685)
++++ b/.idea/modules.xml	(date 1702001472685)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/EvgenyBaulin.iml" filepath="$PROJECT_DIR$/.idea/EvgenyBaulin.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/EvgenyBaulin.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/EvgenyBaulin.iml b/.idea/EvgenyBaulin.iml
+new file mode 100644
+--- /dev/null	(date 1702001472677)
++++ b/.idea/EvgenyBaulin.iml	(date 1702001472677)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"CMakeSettings\">\n    <configurations>\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\n    </configurations>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"476815d0-7ad2-4130-b934-4fb02aa1891c\" name=\"Changes\" comment=\"Update README.md\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"2Oi1H75HINe1ZIkqinMnISVatFO\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/Users/evgenybaulin/Library/Mobile Documents/com~apple~CloudDocs/GitHub/EvgenyBaulin\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"watcher.settings\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"476815d0-7ad2-4130-b934-4fb02aa1891c\" name=\"Changes\" comment=\"\" />\n      <created>1682028497397</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1682028497397</updated>\n      <workItem from=\"1682028498707\" duration=\"23000\" />\n      <workItem from=\"1682028584304\" duration=\"7000\" />\n      <workItem from=\"1682028975637\" duration=\"8000\" />\n      <workItem from=\"1682028990260\" duration=\"2506000\" />\n      <workItem from=\"1682031987741\" duration=\"335000\" />\n      <workItem from=\"1682032682533\" duration=\"14000\" />\n      <workItem from=\"1682032700533\" duration=\"10000\" />\n      <workItem from=\"1682032717266\" duration=\"30000\" />\n      <workItem from=\"1682069889241\" duration=\"2164000\" />\n      <workItem from=\"1699797531102\" duration=\"760000\" />\n      <workItem from=\"1699798298137\" duration=\"428000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Update README.md\">\n      <created>1682032772709</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682032772709</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Update README.md\">\n      <created>1682034275141</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682034275141</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Update README.md\">\n      <created>1682034357456</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682034357456</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Update README.md\">\n      <created>1682034470129</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682034470129</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Update README.md\">\n      <created>1682071570670</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682071570670</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Update README.md\">\n      <created>1682072052688</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682072052688</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Update README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1699797737741</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1699797737741</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Update README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1699797818090</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1699797818090</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Update README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1699797873806</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1699797873806</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Update README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1699798563746</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1699798563746</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Update README.md\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Update README.md\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 21bf266abe7bae9f5bae0afc4734513c8aed41de)
++++ b/.idea/workspace.xml	(date 1702042341964)
+@@ -9,7 +9,11 @@
+     </configurations>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="Update README.md" />
++    <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="Update README.md">
++      <change afterPath="$PROJECT_DIR$/.idea/EvgenyBaulin.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -20,6 +24,20 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;EvgenyBaulin&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="e3bb5744-d1b4-40ce-89fc-9f2634d663c4" />
++        <option name="url" value="https://github.com/EvgenyBaulin/EvgenyBaulin.git" />
++      </UrlAndAccount>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -38,6 +56,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.cidr.known.project.marker": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+     "cf.first.check.clang-format": "false",
+     "cidr.known.project.marker": "true",
+@@ -52,6 +71,13 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
++      </set>
++    </attachedChunks>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -71,6 +97,9 @@
+       <workItem from="1682069889241" duration="2164000" />
+       <workItem from="1699797531102" duration="760000" />
+       <workItem from="1699798298137" duration="428000" />
++      <workItem from="1700825296172" duration="143000" />
++      <workItem from="1701253264312" duration="562000" />
++      <workItem from="1702001460159" duration="1226000" />
+     </task>
+     <task id="LOCAL-00001" summary="Update README.md">
+       <created>1682032772709</created>
+@@ -146,7 +175,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1699798563746</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="Update README.md">
++      <option name="closed" value="true" />
++      <created>1700825432259</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1700825432259</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

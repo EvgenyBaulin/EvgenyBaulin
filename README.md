@@ -22,8 +22,7 @@
 
 ### About Me:
 
-I am a student at the Higher School of Economics and have been programming for over 3 years. I have experience in
-Python, C++, HTML5, CSS5, Go, and Git, and enjoy working with others to develop solutions. My passion for programming
+I am a student at the Higher School of Economics and have been programming for over 3 years. My passion for programming
 fuels my curiosity to learn and explore new technologies. I'm always eager to take on new challenges and expand my skill
 set.
 
@@ -33,7 +32,7 @@ set.
 
 <div>
     <img alt="Python" height="40"
-         src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python"
+         src="icons/Python.svg" title="Python"
          width="40"/>&nbsp;
     <img alt="Cpp" height="40"
          src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="Cpp"
@@ -47,6 +46,8 @@ set.
     <img alt="Git" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
          title="Git" width="40"/>&nbsp;
     <img alt="Go" height="40" src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg" title="Git"
+         width="40">
+    <img alt="Django REST" height="40" src="icons/DRF.svg" title="Django REST"
          width="40">
 </div>
 

@@ -2,21 +2,38 @@
 
 ### Social media and views:
 
-<div id="socials" align="center" xmlns:>
-    <a href="https://t.me/tarakan_tuc">
-        <img src="https://img.shields.io/badge/Telegram-black?logo=Telegram&logoColor=white"
-             alt="Telegram"/>
-    </a>
-    <a href="https://www.linkedin.com/in/evgeny-baulin-31b42926b/">
-        <img src="https://img.shields.io/badge/LinkedIn-blue?logo=LinkedIn&logoColor=white"
-             alt="LinkedIn"/>
-    </a>
-    <a href="https://taplink.cc/evgenbaulinc">
-        <img src="https://img.shields.io/badge/Taplink-blue"
-             alt="Taplink"/>
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt=""/>
+<div id = "socials" style = "display: flex; justify-content: center; align-items: center; padding: 2px;">
+    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href = "https://t.me/tarakan_tuc" style = "text-decoration: none; color: black; font-size: 12px;">
+            <img src = "icons/Telegram.svg" alt = "Telegram"
+                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+            Telegram
+        </a>
+    </div>
+    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href = "https://www.linkedin.com/in/evgeny-baulin-31b42926b/"
+           style = "text-decoration: none; color: black; font-size: 12px;">
+            <img src = "icons/LinkedIn.svg" alt = "LinkedIn"
+                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+            LinkedIn
+        </a>
+    </div>
+    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href = "https://taplink.cc/evgenbaulinc" style = "text-decoration: none; color: black; font-size: 12px;">
+            <img src = "icons/Taplink.png" alt = "Taplink" style = "max-height: 12px; width: auto; margin-right: 5px;">
+            Taplink
+        </a>
+    </div>
+    <div style = "text-align: center; padding: 2px; display: flex; align-items: center;">
+        <a href = "https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue"
+           style = "text-decoration: none; color: black; font-size: 12px;">
+            <img src = "https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt = ""
+                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+        </a>
+    </div>
 </div>
+
+
 
 ---
 
@@ -31,7 +48,7 @@ set.
 ### Languages and Tools :
 
 <div>
-    <img alt="Python" height="40" src="icons/Python.svg" title="Python"  width="40"/>&nbsp;
+    <img alt="Python" height="40" src="icons/Python.svg" title="Python" width="40"/>&nbsp;
     <img alt="Cpp" height="40" src="icons/Cpp.svg" title="Cpp" width="40"/>&nbsp;
     <img alt="HTML" height="40" src="icons/HTML_5.svg" title="HTML" width="40"/>&nbsp;
     <img alt="CSS" height="40" src="icons/CSS_3.svg" title="CSS" width="40"/>&nbsp;

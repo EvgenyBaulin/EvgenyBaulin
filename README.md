@@ -2,38 +2,31 @@
 
 ### Social media and views:
 
-<div id = "socials" style = "display: flex; justify-content: center; align-items: center; padding: 2px;">
-    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
-        <a href = "https://t.me/tarakan_tuc" style = "text-decoration: none; color: black; font-size: 12px;">
-            <img src = "icons/Telegram.svg" alt = "Telegram"
-                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+<div id="socials" style="display: flex; justify-content: center; align-items: center; padding: 2px;">
+    <div style="text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href="https://t.me/tarakan_tuc" style="text-decoration: none; color: black; font-size: 12px;">
+            <img src="icons/Telegram.svg" alt="Telegram" style="max-height: 12px; width: auto; margin-right: 5px;">
             Telegram
         </a>
     </div>
-    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
-        <a href = "https://www.linkedin.com/in/evgeny-baulin-31b42926b/"
-           style = "text-decoration: none; color: black; font-size: 12px;">
-            <img src = "icons/LinkedIn.svg" alt = "LinkedIn"
-                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+    <div style="text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href="https://www.linkedin.com/in/evgeny-baulin-31b42926b/" style="text-decoration: none; color: black; font-size: 12px;">
+            <img src="icons/LinkedIn.svg" alt="LinkedIn" style="max-height: 12px; width: auto; margin-right: 5px;">
             LinkedIn
         </a>
     </div>
-    <div style = "text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
-        <a href = "https://taplink.cc/evgenbaulinc" style = "text-decoration: none; color: black; font-size: 12px;">
-            <img src = "icons/Taplink.png" alt = "Taplink" style = "max-height: 12px; width: auto; margin-right: 5px;">
+    <div style="text-align: center; background-color: #ffdab9; padding: 2px; margin-right: 10px; display: flex; align-items: center; border-radius: 10px;">
+        <a href="https://taplink.cc/evgenbaulinc" style="text-decoration: none; color: black; font-size: 12px;">
+            <img src="icons/Taplink.png" alt="Taplink" style="max-height: 12px; width: auto; margin-right: 5px;">
             Taplink
         </a>
     </div>
-    <div style = "text-align: center; padding: 2px; display: flex; align-items: center;">
-        <a href = "https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue"
-           style = "text-decoration: none; color: black; font-size: 12px;">
-            <img src = "https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt = ""
-                 style = "max-height: 12px; width: auto; margin-right: 5px;">
+    <div style="text-align: center; padding: 2px; display: flex; align-items: center;">
+        <a href="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" style="text-decoration: none; color: black; font-size: 12px;">
+            <img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt="" style="max-height: 12px; width: auto; margin-right: 5px;">
         </a>
     </div>
 </div>
-
-
 
 ---
 
@@ -53,7 +46,7 @@ set.
     <img alt="HTML" height="40" src="icons/HTML_5.svg" title="HTML" width="40"/>&nbsp;
     <img alt="CSS" height="40" src="icons/CSS_3.svg" title="CSS" width="40"/>&nbsp;
     <img alt="Git" height="40" src="icons/Git.svg" title="Git" width="40"/>&nbsp;
-    <img alt="Go" height="40" src="icons/Go.svg" title="Git" width="40">
+    <img alt="Go" height="40" src="icons/Go.svg" title="Go" width="40">
     <img alt="Django REST" height="40" src="icons/DRF.svg" title="Django REST" width="40">
 </div>
 
@@ -62,13 +55,7 @@ set.
 ### My Stats:
 
 <div>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark"
-         width="100%" alt=""/>&nbsp;
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=EvgenyBaulin&theme=dark&background=000000)](https://git.io/streak-stats"
-         width="100%" alt=""/>&nbsp;
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/README.md?username=EvgenyBaulin&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats"
-         width="100%" alt=""/>&nbsp;
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark" width="100%" alt=""/>&nbsp;
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=EvgenyBaulin&theme=dark&background=000000" width="100%" alt=""/>&nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EvgenyBaulin&layout=compact&theme=vision-friendly-dark" width="100%" alt=""/>
 </div>
-
-
-

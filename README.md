@@ -24,7 +24,7 @@
 
 I am a student at the Higher School of Economics and have been programming for over 3 years. My passion for programming
 fuels my curiosity to learn and explore new technologies. I'm always eager to take on new challenges and expand my skill
-set.
+set. 
 
 ---
 

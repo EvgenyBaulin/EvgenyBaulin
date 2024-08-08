@@ -10,7 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="Update README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/Kotlin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/LaTeX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/MS SQL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/Markdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/MySQL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/NLP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/NumPy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/Pandas.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/PostgreSQL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SQL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/Swift.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_23,_4_32 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_23__4_32PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Go.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +44,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4cb3542cfaf5bc891e29a49dc5d5b171a7eec574" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -36,14 +57,12 @@
     &quot;assignee&quot;: &quot;EvgenyBaulin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="e3bb5744-d1b4-40ce-89fc-9f2634d663c4" />
-        <option name="url" value="https://github.com/EvgenyBaulin/EvgenyBaulin.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EvgenyBaulin/EvgenyBaulin.git",
+    "accountId": "a145153e-244d-4475-96eb-345f7fa12130"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,12 +70,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2Oi1H75HINe1ZIkqinMnISVatFO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -77,10 +100,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18968.29" />
+        <option value="bundled-python-sdk-f5635417b835-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18968.29" />
       </set>
     </attachedChunks>
   </component>
@@ -106,6 +135,7 @@
       <workItem from="1700825296172" duration="143000" />
       <workItem from="1701253264312" duration="562000" />
       <workItem from="1702001460159" duration="6180000" />
+      <workItem from="1723142841102" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1682032772709</created>
@@ -221,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702047215451</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1702047580215</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702047580215</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,13 +270,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/detached" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>

@@ -8,8 +8,6 @@ collaborations, opportunities, or discussions about technology!
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/evgeny-baulin-31b42926b/) or
 explore my work on [Kaggle](https://www.kaggle.com/evgeny1928)
 
----
-
 ## Languages and Tools :
 
 ### Languages:
@@ -28,8 +26,6 @@ explore my work on [Kaggle](https://www.kaggle.com/evgeny1928)
 <div>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EvgenyBaulin&layout=compact&theme=vue-dark&hide_border=true&hide_title=true" alt=""/>&nbsp;
 </div>
-
----
 
 ## Some Stats:
 

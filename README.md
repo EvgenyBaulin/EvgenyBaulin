@@ -3,17 +3,13 @@
 ### Social media and views:
 
 <div id="socials" align="center" xmlns:>
-    <a href="https://t.me/tarakan_tuc">
+    <a href="https://t.me/magicc_mannn">
         <img src="https://img.shields.io/badge/Telegram-black?logo=Telegram&logoColor=white"
              alt="Telegram"/>
     </a>
     <a href="https://www.linkedin.com/in/evgeny-baulin-31b42926b/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?logo=LinkedIn&logoColor=white"
              alt="LinkedIn"/>
-    </a>
-    <a href="https://taplink.cc/evgenbaulinc">
-        <img src="https://img.shields.io/badge/Taplink-blue"
-             alt="Taplink"/>
     </a>
     <img src="https://komarev.com/ghpvc/?username=EvgenyBaulin&style=flat-square&color=blue" alt=""/>
 </div>

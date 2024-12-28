@@ -9,24 +9,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="Update README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Kotlin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/LaTeX.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/MS SQL.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Markdown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/MySQL.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/NLP.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/NumPy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Pandas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/PostgreSQL.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/SQL.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Swift.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_23,_4_32 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_23__4_32PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Go.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/CSS_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Cpp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/DRF.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Git.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/HTML_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Kotlin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/LaTeX.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/LinkedIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/MS SQL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/MySQL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/NLP.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/NumPy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Pandas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/PostgreSQL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Python.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/SQL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Swift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Taplink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Telegram.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +63,12 @@
     &quot;assignee&quot;: &quot;EvgenyBaulin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EvgenyBaulin/EvgenyBaulin.git",
-    "accountId": "a145153e-244d-4475-96eb-345f7fa12130"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EvgenyBaulin/EvgenyBaulin.git&quot;,
+    &quot;accountId&quot;: &quot;a145153e-244d-4475-96eb-345f7fa12130&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -85,6 +91,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
@@ -108,8 +115,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18968.29" />
-        <option value="bundled-python-sdk-f5635417b835-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18968.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -135,7 +142,9 @@
       <workItem from="1700825296172" duration="143000" />
       <workItem from="1701253264312" duration="562000" />
       <workItem from="1702001460159" duration="6180000" />
-      <workItem from="1723142841102" duration="1254000" />
+      <workItem from="1723142841102" duration="2113000" />
+      <workItem from="1730464604380" duration="5000" />
+      <workItem from="1735393669481" duration="3117000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1682032772709</created>
@@ -259,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702047580215</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1723144436666</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723144436666</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

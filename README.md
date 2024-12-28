@@ -30,5 +30,5 @@ explore my work on [Kaggle](https://www.kaggle.com/evgeny1928)
 ## Some Stats:
 
 <div>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark" alt=""/>&nbsp;
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EvgenyBaulin&theme=dark" width="100%" alt=""/>&nbsp;
 </div>

@@ -12,7 +12,7 @@ explore my work on [Kaggle](https://www.kaggle.com/evgeny1928)
 
 ### Languages:
 
-- **Frontend**: HTML, CSS, Swift, Kotlin
+- **Frontend**: HTML, CSS, Swift, Kotlin, VUE, JavaScript
 - **Backend**: Python, C++, SQL
 - **Scripting/Markup**: LaTeX, Markdown
 

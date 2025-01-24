@@ -10,29 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="476815d0-7ad2-4130-b934-4fb02aa1891c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/CSS_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Cpp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/DRF.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Git.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/HTML_5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Kotlin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/LaTeX.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/LinkedIn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/MS SQL.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Markdown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/MySQL.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/NLP.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/NumPy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Pandas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/PostgreSQL.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Python.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SQL.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Swift.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Taplink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Telegram.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,30 +61,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/evgenybaulin/Library/Mobile Documents/com~apple~CloudDocs/GitHub/EvgenyBaulin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evgenybaulin/Library/Mobile Documents/com~apple~CloudDocs/GitHub/EvgenyBaulin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/icons" />
@@ -144,7 +122,9 @@
       <workItem from="1702001460159" duration="6180000" />
       <workItem from="1723142841102" duration="2113000" />
       <workItem from="1730464604380" duration="5000" />
-      <workItem from="1735393669481" duration="3117000" />
+      <workItem from="1735393669481" duration="4392000" />
+      <workItem from="1735782814914" duration="10000" />
+      <workItem from="1735782877610" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1682032772709</created>
@@ -276,7 +256,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723144436666</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1735397065432</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735397065432</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1735397092177</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735397092177</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1735397133844</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735397133844</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,200 @@
+<!doctype html>
+<!--
+  Local preview for README.md.
+
+  Renders README.md roughly the way GitHub does, so the profile can be
+  iterated without pushing. The theme toggle in the top right switches the
+  page between GitHub's light and dark palettes and swaps every generated SVG
+  to its matching variant, so both can be checked side by side.
+
+  This file fetches README.md over HTTP, and fetch() refuses file:// URLs.
+  Serve the repository root instead:
+
+      python -m http.server 8000
+
+  then open http://localhost:8000/preview.html
+-->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>README preview</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --border: #d1d9e0;
+    --link: #0969da;
+    --code-bg: #f6f8fa;
+  }
+  html[data-theme="dark"] {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --link: #4493f8;
+    --code-bg: #161b22;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+                 Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 16px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+  .bar span { color: var(--muted); font-size: 12px; }
+  button {
+    font: inherit;
+    font-size: 13px;
+    color: var(--fg);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--muted); }
+  /* Approximates GitHub's README container: same max width and padding, so
+     spacing and image sizing can be judged rather than guessed. */
+  main {
+    max-width: 1012px;
+    margin: 0 auto;
+    padding: 32px 32px 96px;
+  }
+  .readme {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 32px;
+  }
+  .readme > *:first-child { margin-top: 0; }
+  .readme > *:last-child { margin-bottom: 0; }
+  h1, h2, h3 { margin: 24px 0 16px; font-weight: 600; line-height: 1.25; }
+  h1 { font-size: 2em; padding-bottom: .3em; border-bottom: 1px solid var(--border); }
+  h2 { font-size: 1.5em; padding-bottom: .3em; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 1.25em; }
+  p, ul, ol { margin: 0 0 16px; }
+  ul { padding-left: 2em; }
+  li { margin: .25em 0; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  img { max-width: 100%; }
+  /* Badge rows: keep the shields inline and tightly spaced, as GitHub does. */
+  p > a > img[src*="shields.io"] { vertical-align: middle; margin-right: 4px; }
+  code {
+    background: var(--code-bg);
+    padding: .2em .4em;
+    border-radius: 6px;
+    font-size: 85%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .problem {
+    max-width: 1012px;
+    margin: 32px auto;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <span>Local preview of README.md &mdash; not the published page</span>
+    <button id="toggle" type="button">Switch to dark</button>
+  </div>
+  <main><div class="readme" id="readme">Loading README.md&hellip;</div></main>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+(function () {
+  var root = document.documentElement;
+  var target = document.getElementById('readme');
+  var toggle = document.getElementById('toggle');
+
+  function fail(message) {
+    target.innerHTML = '';
+    var box = document.createElement('div');
+    box.className = 'problem';
+    box.textContent = message;
+    target.appendChild(box);
+  }
+
+  /* The <picture> media queries follow the browser's real colour scheme, which
+     the toggle cannot change. A matching <source> also beats the <img src>,
+     so swapping src alone would silently do nothing. Force each dark <source>
+     on or off via its media attribute, and swap the <img> fallback to match. */
+  function applyTheme(name) {
+    var dark = name === 'dark';
+    root.setAttribute('data-theme', name);
+    toggle.textContent = dark ? 'Switch to light' : 'Switch to dark';
+
+    var sources = target.querySelectorAll('picture source');
+    for (var i = 0; i < sources.length; i++) {
+      var srcset = sources[i].getAttribute('srcset') || '';
+      if (srcset.indexOf('-dark.svg') === -1) { continue; }
+      /* 'not all' never matches, so the <img> fallback is used instead. */
+      sources[i].setAttribute('media', dark ? 'all' : 'not all');
+    }
+
+    var wanted = dark ? '-dark.svg' : '-light.svg';
+    var other = dark ? '-light.svg' : '-dark.svg';
+    var images = target.querySelectorAll('img');
+    for (var j = 0; j < images.length; j++) {
+      var src = images[j].getAttribute('src') || '';
+      if (src.indexOf(other) !== -1) {
+        images[j].setAttribute('src', src.replace(other, wanted));
+      }
+    }
+  }
+
+  toggle.addEventListener('click', function () {
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+
+  if (location.protocol === 'file:') {
+    fail('preview.html was opened over file://, and fetch() cannot read local ' +
+         'files. Run "python -m http.server 8000" in the repository root and ' +
+         'open http://localhost:8000/preview.html instead.');
+    return;
+  }
+
+  if (typeof marked === 'undefined') {
+    fail('The marked library did not load from the CDN. Check the network ' +
+         'connection, or vendor marked.min.js next to this file and point the ' +
+         'script tag at it.');
+    return;
+  }
+
+  fetch('README.md', { cache: 'no-store' })
+    .then(function (response) {
+      if (!response.ok) { throw new Error('HTTP ' + response.status); }
+      return response.text();
+    })
+    .then(function (text) {
+      target.innerHTML = marked.parse(text);
+      applyTheme(root.getAttribute('data-theme'));
+    })
+    .catch(function (error) {
+      fail('Could not load README.md: ' + error.message);
+    });
+})();
+</script>
+</body>
+</html>

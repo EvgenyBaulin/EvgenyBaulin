@@ -1,0 +1,3 @@
+# Runtime dependencies for the asset generators in scripts/.
+requests>=2.31
+matplotlib>=3.8

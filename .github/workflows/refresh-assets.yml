@@ -1,0 +1,77 @@
+name: Refresh profile assets
+
+on:
+  schedule:
+    # 04:00 UTC daily, which is 07:00 Europe/Moscow.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Each generator runs even if an earlier one failed, so one broken data
+      # source cannot take the whole refresh down. Failures are collected and
+      # reported at the end of the job.
+      - name: Generate assets
+        id: generate
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          set -uo pipefail
+          failed=""
+          for generator in gen_contrib_heatmap gen_lang_stats gen_rl_chart; do
+            echo "::group::${generator}"
+            if python "scripts/${generator}.py"; then
+              echo "${generator} completed"
+            else
+              echo "::warning title=Generator failed::${generator} exited non-zero"
+              failed="${failed} ${generator}"
+            fi
+            echo "::endgroup::"
+          done
+          echo "failed=${failed# }" >> "$GITHUB_OUTPUT"
+
+      - name: Commit refreshed assets
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets; then
+            echo "No asset changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore(assets): automated refresh [skip ci]"
+          git push
+
+      - name: Report generator failures
+        if: steps.generate.outputs.failed != ''
+        run: |
+          echo "The following generators failed: ${{ steps.generate.outputs.failed }}"
+          echo "### Failed generators" >> "$GITHUB_STEP_SUMMARY"
+          echo "${{ steps.generate.outputs.failed }}" >> "$GITHUB_STEP_SUMMARY"
+          exit 1

@@ -9,12 +9,22 @@ Read this top to bottom the first time. After that, the only sections you are
 likely to need again are [Previewing](#4-previewing-the-readme) and
 [Troubleshooting](#6-troubleshooting).
 
-- [1. Creating `PROFILE_TOKEN`](#1-creating-profile_token)
-- [2. Local environment](#2-local-environment)
-- [3. Running the generators](#3-running-the-generators)
-- [4. Previewing the README](#4-previewing-the-readme)
-- [5. Changing the accent colour](#5-changing-the-accent-colour)
-- [6. Troubleshooting](#6-troubleshooting)
+- [Setup](#setup)
+  - [1. Creating `PROFILE_TOKEN`](#1-creating-profile_token)
+    - [Generate the token](#generate-the-token)
+    - [Add it as a repository secret](#add-it-as-a-repository-secret)
+    - [Using it locally](#using-it-locally)
+  - [2. Local environment](#2-local-environment)
+  - [3. Running the generators](#3-running-the-generators)
+    - [The research chart's data](#the-research-charts-data)
+  - [4. Previewing the README](#4-previewing-the-readme)
+  - [5. Changing the accent colour](#5-changing-the-accent-colour)
+  - [6. Troubleshooting](#6-troubleshooting)
+    - ["GitHub rate limit reached"](#github-rate-limit-reached)
+    - [No token found](#no-token-found)
+    - [What the unauthenticated fallback degrades to](#what-the-unauthenticated-fallback-degrades-to)
+    - [The Action ran but committed nothing](#the-action-ran-but-committed-nothing)
+    - [The workflow fails to push](#the-workflow-fails-to-push)
 
 ---
 
@@ -92,11 +102,11 @@ python scripts/gen_lang_stats.py
 python scripts/gen_rl_chart.py
 ```
 
-| Script | Writes | Source |
-| --- | --- | --- |
-| `gen_contrib_heatmap.py` | `assets/contrib-heatmap-light.svg`, `assets/contrib-heatmap-dark.svg` | GitHub contributions calendar |
-| `gen_lang_stats.py` | `assets/lang-stats-light.svg`, `assets/lang-stats-dark.svg` | GitHub REST `/languages` per public repository |
-| `gen_rl_chart.py` | `assets/rl-thresholds-light.svg`, `assets/rl-thresholds-dark.svg` | `data/rl_scenario_summary.csv` (committed) |
+| Script                   | Writes                                                                | Source                                         |
+| ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------- |
+| `gen_contrib_heatmap.py` | `assets/contrib-heatmap-light.svg`, `assets/contrib-heatmap-dark.svg` | GitHub contributions calendar                  |
+| `gen_lang_stats.py`      | `assets/lang-stats-light.svg`, `assets/lang-stats-dark.svg`           | GitHub REST `/languages` per public repository |
+| `gen_rl_chart.py`        | `assets/rl-thresholds-light.svg`, `assets/rl-thresholds-dark.svg`     | `data/rl_scenario_summary.csv` (committed)     |
 
 `scripts/theme.py` holds the palette and SVG helpers; it has no entry point.
 `scripts/github_api.py` is the shared API client and is likewise not run
@@ -118,13 +128,13 @@ thesis simulator
 `rl-credit-scoring-sim/artifacts/tables/main_scenario_summary.csv`). It needs
 these columns:
 
-| Column | Meaning |
-| --- | --- |
-| `controller` | Agent or baseline identifier, e.g. `ppo`, `double_dqn` |
-| `scenario_name` | Market scenario, e.g. `base_market`, `adverse_stress` |
-| `expected_profit_mean` | Mean expected profit per evaluation run |
-| `expected_profit_ci_lower` | Lower bound of the 95% confidence interval |
-| `expected_profit_ci_upper` | Upper bound of the 95% confidence interval |
+| Column                     | Meaning                                                |
+| -------------------------- | ------------------------------------------------------ |
+| `controller`               | Agent or baseline identifier, e.g. `ppo`, `double_dqn` |
+| `scenario_name`            | Market scenario, e.g. `base_market`, `adverse_stress`  |
+| `expected_profit_mean`     | Mean expected profit per evaluation run                |
+| `expected_profit_ci_lower` | Lower bound of the 95% confidence interval             |
+| `expected_profit_ci_upper` | Upper bound of the 95% confidence interval             |
 
 Other columns are ignored. To plot a newer export, drop it in and point the
 script at it:
